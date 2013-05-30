@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.author       = { "Joel Levin" => "joel@joeldev.com" }
   s.source       = { :git => "https://github.com/joeldev/JLRoutes.git", :tag => "1.2" }
 
-  s.source_files = 'JLRoutes', 'JLRoutes/*.{h,m}'
+  s.source_files = 'JLRoutes'
   s.framework  = 'Foundation'
   s.requires_arc = true
   s.ios.deployment_target = '5.0'
